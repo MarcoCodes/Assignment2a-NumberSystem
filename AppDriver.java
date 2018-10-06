@@ -51,10 +51,10 @@ public class AppDriver
       System.out.println("GetValue(): " + Integer.toString(numberTest1.getValue()));
       
       test.invertA();
-      System.out.println("InvertB(): " + test.toString());
+      System.out.println("InvertA(): " + test.toString());
       
       test.invertB();
-      System.out.println("InvertA(): " + test.toString());
+      System.out.println("InvertB(): " + test.toString());
       
       test.add();
       System.out.println("Add(): " + test.toString());
