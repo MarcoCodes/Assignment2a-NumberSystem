@@ -5,8 +5,8 @@
       @description   A complete overhaul in original "mathobjects" concept with redesigned class layout.
 
       Classes
-         Number
-         NumberSystem
+            Number
+            NumberSystem
  	      AppDriver
  
       Associations
@@ -16,8 +16,8 @@
       Number
  	      (-) value
  	      (+) Number()
-         (+) Number(int n)
-         (+) Number(Number anotherNumber)
+            (+) Number(int n)
+            (+) Number(Number anotherNumber)
  	      (+) setValue(int n)
  	      (+) getValue()
  	      (+) toString()
