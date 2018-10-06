@@ -14,23 +14,38 @@
  	      NumberSystem --- 1 : 3 ---> Number
  
       NumberSystem 
- 	      (-) Number a, b, result
-         (-) int isInverse
-         (-) String whatAction
+ 	      (-) Number a
+            (-) Number b
+            (-) Number result
+            (-) int isInverse
+            (-) String whatAction
  	      (+) NumberSystem()
- 	      (+) NumberSystem(a)
- 	      (+) NumberSystem(a, b)
-         (+) NumberSystem(NumberSystem ns)
-         (+) add()
-         (+) sub() 
-         (+) mult() 
-         (+) div()
-         (+) invert()
-         (+) mod()
- 	      (+) getA()
-         (+) getB()
-         (+) getResult()
-         (+) toString()
+ 	      (+) NumberSystem(Number aValue)
+ 	      (+) NumberSystem(Number aValue, Number bValue)
+            (+) NumberSystem(int aValue)
+            (+) NumberSystem(int aValue, int bValue)
+            (+) NumberSystem(int aValue, Number bValue)
+            (+) NumberSystem(Number aValue, int bValue)
+            (+) NumberSystem(NumberSystem anotherNumberSystem)
+            (+) setA()
+            (+) setA(int newA)
+            (+) setA(Number newA)
+            (+) setA(NumberSystem newNumberSystem)
+            (+) setB()
+            (+) setB(int newB)
+            (+) setB(Number newB)
+            (+) setB(NumberSystem newNumberSystem)
+            (+) add()
+            (+) sub() 
+            (+) mult() 
+            (+) div()
+            (+) invertA()
+            (+) invertB()
+            (+) mod()
+            (+) getA()
+            (+) getB()
+            (+) getResult()
+            (+) toString()
  
       @date         9/21/2018
  
